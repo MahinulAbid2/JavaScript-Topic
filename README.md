@@ -2,16 +2,17 @@
 
 <br>
 
-1. [Class (what is class, syntax, method)](#class)  <br>
+* [Class overview](#class-overview)  
+* [Object Prototype](#object-prototpye) 
 
 <br>
 <br>
 <br>
 
-# Class
+# Class Overview
 
-* Class is a prototype for an Object.
-* What is object prototype?
+* Class is a `prototype` for an <ins>Object</ins>.
+* What is `object prototype`?
 
 <br>
 <br>
@@ -58,13 +59,29 @@ let StudentFive={
 <br>
 <br> 
 
-✔ Object Prototpye:
+# Object Prototpye
 
 <br>
 
 * Object Prototype is an `object structure`.
 * It will allow us to create many object with `different data`.
 * This way it will take less code to write.
+
+<br>
+
+# Class Basic Syntax
+
+```javascript
+class ClassName{  // class name first letter must be Upperclass
+
+    constructor(){
+        // constructor is where I define the object structure
+        // constructor is a method in class        
+    }
+
+    //we can also create CUSTOM method here.
+}
+```
 
 
 
