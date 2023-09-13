@@ -71,18 +71,35 @@ let StudentFive={
 
 # Class Basic Syntax
 
+
 ```javascript
-class ClassName{  // class name first letter must be Upperclass
+class ClassName{  // class name first letter must be Uppercase
 
     constructor(){
-        // constructor is where I define the object structure
+        // constructor is where I define the OBJECT STRUCTURE
         // constructor is a method in class        
     }
 
-    //we can also create CUSTOM method here.
 }
 ```
 
+<br>
 
+### Creating a new Class 
+
+```javascript
+class StudentForm {
+    constructor (firstName, lastName, age) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.age= age;
+    }
+}
+```
+
+<br>
+
+* <ins>Explaination</ins>
+* `constructor (firstName, lastName, age) {` - Hey Class, I want to create <ins>object Prototype Structure</ins> which will contain `firstName`, `lastName`, `age`.
 
 
