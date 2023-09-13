@@ -53,21 +53,12 @@ let StudentFive={
 #### Notice Something?
 
 * These five object has `same structure` with <ins>Different Data</ins>.
-* This code somehow looks `repetitive`.
-* This is where `object prototype` comes.
+* Each object has `same property` but it has different data value.
+* There is a way to write less code and that is `class`.
 
 <br>
 <br> 
 
-# Object Prototpye
-
-<br>
-
-* Object Prototype is an `object structure`.
-* It will allow us to create many object with `different data`.
-* This way it will take less code to write.
-
-<br>
 
 # Class Basic Syntax
 
@@ -100,6 +91,6 @@ class StudentForm {
 <br>
 
 * <ins>Explaination</ins>
-* `constructor (firstName, lastName, age) {` - Hey Class, I want to create <ins>object Prototype Structure</ins> which will contain `firstName`, `lastName`, `age`.
+* `constructor (firstName, lastName, age) {` - Hey Class, I will create a lot of object which will have these similar properties --- `firstName`, `lastName`, `age`.
 
 
