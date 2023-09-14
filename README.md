@@ -86,11 +86,24 @@ class StudentForm {
         this.age= age;
     }
 }
+
+//creating new Object From Class
+let ObjectOne= new StudentForm("john","mark",30);
 ```
 
 <br>
 
 * <ins>Explaination</ins>
-* `constructor (firstName, lastName, age) {` - Hey Class, I will create a lot of object which will have these similar properties --- `firstName`, `lastName`, `age`.
 
+```javascript
+constructor (firstName, lastName, age) {
+//  Hey Class, I will create a lot of object which will have these similar properties --- `firstName`, `lastName`, `age`.
+```
+
+
+```javascript
+this.firstName = firstName;
+// hey class, if you have any "firstName" parameter in the the constructor function
+// then assign this to the object property named = "firstName"
+```
 
