@@ -1,6 +1,13 @@
-### Topic
+# Topic To cover
+* class
+* callback
+* promises
+* instiation
+* 
 
 <br>
+
+### Topic
 
 * [Class overview](#class-overview)  
 * [Object Prototype](#object-prototpye) 
@@ -11,11 +18,6 @@
 
 # Class Overview
 
-* Class is a `prototype` for an <ins>Object</ins>.
-* What is `object prototype`?
-
-<br>
-<br>
 
 ```javascript
 let StudentOne={
@@ -50,11 +52,18 @@ let StudentFive={
 <br> 
 
 
-#### Notice Something?
+### These five object has `same structure` with `Different Data`
 
-* These five object has `same structure` with <ins>Different Data</ins>.
-* Each object has `same property` but it has different data value.
-* There is a way to write less code and that is `class`.
+```javascript
+//with javascript class
+//we can create same 5 object with 5 small LINE.
+
+let StudentOne= new StudentForm("John","Mark",20);
+let StudentTwo= new StudentForm("Kate","William",23);
+let StudentThree= new StudentForm("Evelin","Parker",24);
+let StudentFour= new StudentForm("Matthew","Warner",25;
+let StudentFive= new StudentForm("Johnson","Cillian",27);
+```
 
 <br>
 <br> 
@@ -62,6 +71,7 @@ let StudentFive={
 
 # Class Basic Syntax
 
+### class has different a little bit different syntax than an object.
 
 ```javascript
 class ClassName{  // class name first letter must be Uppercase
@@ -101,9 +111,27 @@ constructor (firstName, lastName, age) {
 ```
 
 
+
+
+
 ```javascript
 this.firstName = firstName;
 // hey class, if you have any "firstName" parameter in the the constructor function
 // then assign this to the object property named = "firstName"
+```
+
+
+```javascript
+//object structure
+const ObjectName={
+    Property_Name: Property_Value, // comma not semi-colon(;)
+    Method_Name: ()=>{
+        // regular function syntax
+
+        let x=10;
+        // here = not :  (equal not colon for assigning)
+        // ; not ,        
+    }
+}
 ```
 
