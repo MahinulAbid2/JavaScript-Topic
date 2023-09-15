@@ -77,8 +77,14 @@ let StudentFive= new StudentForm("Johnson","Cillian",27);
 class ClassName{  // class name first letter must be Uppercase
 
     constructor(){
-        // constructor is where I define the OBJECT STRUCTURE
-        // constructor is a method in class        
+        // constructor is a must method in class
+        // constructor tells which object property will the future object contain.
+        // constructor is also a method in class        
+    }
+
+    method ( ){
+        // method is like object method
+        // 
     }
 
 }
@@ -107,7 +113,8 @@ let ObjectOne= new StudentForm("john","mark",30);
 
 ```javascript
 constructor (firstName, lastName, age) {
-//  Hey Class, I will create a lot of object which will have these similar properties --- `firstName`, `lastName`, `age`.
+/*  Hey Class, I will create a lot of object which will have
+these similar properties --- `firstName`, `lastName`, `age`. */
 ```
 
 
